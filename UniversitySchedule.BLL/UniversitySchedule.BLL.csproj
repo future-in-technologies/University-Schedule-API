@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UniversitySchedule.Core\UniversitySchedule.Core.csproj" />
+    <ProjectReference Include="..\UniversitySchedule.DAL\UniversitySchedule.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

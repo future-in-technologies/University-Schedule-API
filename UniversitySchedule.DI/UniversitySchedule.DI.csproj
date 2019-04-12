@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Managers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UniversitySchedule.BLL\UniversitySchedule.BLL.csproj" />
+    <ProjectReference Include="..\UniversitySchedule.Core\UniversitySchedule.Core.csproj" />
+    <ProjectReference Include="..\UniversitySchedule.DAL\UniversitySchedule.DAL.csproj" />
+  </ItemGroup>
+
+</Project>
